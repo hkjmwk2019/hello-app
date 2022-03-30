@@ -14,9 +14,13 @@ public class HelloAppApplication {
 	}
 	
 	@GetMapping("/sayHello")
-	public String sayHello() {
+	public String sayHello1() {
 		return "Hello My Friend";
 		
 	}
-
+	@GetMapping("/sayBye")
+	public String sayBye() {
+		return "Bye My Friend";
+		
+	}
 }
