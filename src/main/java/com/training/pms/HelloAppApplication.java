@@ -21,6 +21,16 @@ public class HelloAppApplication {
 	@GetMapping("/sayBye")
 	public String sayBye() {
 		return "Bye My Friend";
-		
 	}
+		
+		@GetMapping("/sayProcessing")
+		public String sayProcessing() {
+			return "Processing My Friend";
+	}
+		
+		@GetMapping("/sayThanks")
+		public String sayThanks() {
+			return "Thanks My Friend";
+	}
+		
 }
